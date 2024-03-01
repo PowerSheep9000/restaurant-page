@@ -1,0 +1,75 @@
+/* style.css */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5E8DD;
+    width: 100%;
+    height: 10rem;
+    margin-bottom: 2rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuBox,
+.contactBox {
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #EED3D9;
+}
+
+button {
+    background-color: #B5C0D0;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    padding: 5px;
+}
+
+.menuBox {
+    width: 20rem;
+    height: 15rem;
+    padding: 10px;
+    font-size: 1.25rem;
+}
+
+.menuBox li {
+    margin-bottom: 10px;
+}
+
+.contactBox {
+    width: 20rem;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contactName {
+    font-weight: bold;
+    font-size: 2.25rem;
+}
+
+.contactDescription {
+    font-size: 1.25rem;
+    margin-left: 20px;
+}
